@@ -1,0 +1,10 @@
+nav a{
+    text-decoration: none;
+}
+
+.divider-line {
+    padding: 2px 55px;
+    background-color: white;
+    border-radius: 2px;
+}
+
