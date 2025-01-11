@@ -2,9 +2,31 @@ nav a{
     text-decoration: none;
 }
 
+/* Divisórias do icone da estrela */
 .divider-line {
     padding: 2px 55px;
     background-color: white;
     border-radius: 2px;
 }
 
+.divider-line-two {
+    padding: 2px 55px;
+    background-color: rgb(67, 67, 67);
+    border-radius: 2px;
+}
+
+/* Sessão About */
+.about button {
+    width: 18%;
+    padding: 16px;
+}
+
+.about button img{
+    width: 11%;
+}
+
+/* Footer */
+.footer-around-web img{
+    width: 7%;
+    padding: 10px;
+}
