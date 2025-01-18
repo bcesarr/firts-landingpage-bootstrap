@@ -1,5 +1,10 @@
+/* Header */
 nav a{
+    color: white;
     text-decoration: none;
+}
+nav a:hover {
+    color: rgba(73, 216, 245);
 }
 
 /* Divisórias do icone da estrela */

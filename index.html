@@ -17,9 +17,9 @@
     <h1 class="text-white">Start Bootstrap</h1>
 
     <nav class="d-flex gap-5">
-      <a class="text-white fs-6" href="#portifolio">PORTIFOLIO</a>
-      <a class="text-white fs-6" href="#about">ABOUT</a>
-      <a class="text-white fs-6" href="#contact">CONTACT</a>
+      <a class=" fs-6" href="#portifolio">PORTIFOLIO</a>
+      <a class=" fs-6" href="#about">ABOUT</a>
+      <a class=" fs-6" href="#contact">CONTACT</a>
     </nav>
   </header>
 
@@ -101,8 +101,7 @@
 
   </section>
 
-  <section id="about"
-    class="about d-flex flex-column justify-content-center align-items-center py-5 bg-info bg-opacity-75">
+  <section id="about" class="about d-flex flex-column justify-content-center align-items-center py-5 bg-info bg-opacity-75">
 
     <h2 class="fs-2 text-white">ABOUT</h2>
 
@@ -131,9 +130,7 @@
       </p>
     </div>
 
-    <button
-      class="d-flex justify-content-center align-items-center bg-transparent border border-2 rounded-3 border-white gap-2 fs-5 text-white"><img
-        class="" src="src/assets/images/icons/icon download.svg" />Free Download!</button>
+    <button class="d-flex justify-content-center align-items-center bg-transparent border border-2 rounded-3 border-white gap-2 fs-5 text-white"><img   class="" src="src/assets/images/icons/icon download.svg" />Free Download!</button>
 
   </section>
 
@@ -151,7 +148,42 @@
 
     </div>
 
-    <form action="">
+
+    <form class="mt-5 justify-content-center align-items-center">
+      <div class="mb-5">
+        <label for="inputName" class="col-sm-2 col-form-label mb-1 fs-3">Full name</label>
+        <div class="col-sm-10">
+          <input type="name" class="form-control" id="inputName">
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label for="inputEmail" class="col-sm-2 col-form-label mb-1 fs-3 ">Email adress</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label for="inputPhone" class="col-sm-2 col-form-label mb-1 fs-3 ">Phone number</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="inputPhone">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="inputMessage" class="col-sm-2 col-form-label mb-1 fs-3 ">Message</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputMessage">
+        </div>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+
+
+
+    <!-- <form action="">
       <input type="text" placeholder="Full name" />
 
       <input type="text" placeholder="Email adress" />
@@ -159,9 +191,9 @@
       <input type="text" placeholder="Phone number" />
 
       <input type="text" placeholder="Message" />
-    </form>
+    </form> -->
 
-    <button>Send</button>
+    <!-- <button>Send</button> -->
   </section>
 
   <footer class="d-flex flex-column justify-content-center align-items-center pt-3 bg-dark">
