@@ -69,13 +69,17 @@ nav a:hover {
   
 
 /* Sessão About */
-.about button {
+.free-download {
     width: 18%;
     padding: 16px;
 }
 
-.about button img{
+.free-download img{
     width: 11%;
+}
+
+.free-download:hover img{
+    content: url('../assets/images/icons/download-black.svg');
 }
 
 /* Footer */
