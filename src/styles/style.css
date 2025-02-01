@@ -82,6 +82,17 @@ nav a:hover {
     content: url('../assets/images/icons/download-black.svg');
 }
 
+
+/* Sessão Contact*/
+.botao-send {
+    background-color: rgba(73, 216, 245, 0.731);
+    border: none;
+}
+
+.botao-send:hover {
+    background-color: rgba(73, 216, 245, 0.731);
+}
+
 /* Footer */
 .footer-around-web img{
     width: 7%;
