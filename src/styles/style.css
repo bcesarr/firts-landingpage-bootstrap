@@ -94,7 +94,29 @@ nav a:hover {
 }
 
 /* Footer */
-.footer-around-web img{
-    width: 7%;
-    padding: 10px;
+.social-icons {
+    width: 17%;
+    padding: 14px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.facebook-icon:hover, .facebook-icon:hover img {
+    content: url('../assets/images/icons/facebook-black-icon.svg');
+    background-color: white;
+}
+
+.twitter-icon:hover, .twitter-icon:hover img {
+    content: url('../assets/images/icons/twitter-black-icon.svg');
+    background-color: white;
+}
+
+.linkedin-icon:hover, .linkedin-icon:hover img {
+    content: url('../assets/images/icons/linkedin-black-icon.svg');
+    background-color: white;
+}
+
+.dribble-icon:hover, .dribble-icon:hover img {
+    content: url('../assets/images/icons/dribble-black-icon.svg');
+    background-color: white;
 }
