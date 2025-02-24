@@ -1,10 +1,4 @@
 /* Header */
-header {
-    top: 0;
-    z-index: 10000;
-    position: sticky;
-}
-
 nav a{
     color: white;
     text-decoration: none;
@@ -12,6 +6,21 @@ nav a{
 nav a:hover {
     color: rgba(73, 216, 245);
 }
+
+.nav-link-a {
+    padding: 16px; /* Garante um espaçamento interno consistente */
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.nav-link-a.active {
+    color: white;
+    padding: 16px;
+    background-color: rgba(73, 216, 245);
+    border-radius: 8px;
+}
+
 
 /* Divisórias do icone da estrela */
 .divider-line {
