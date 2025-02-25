@@ -25,6 +25,46 @@
         <a class="fs-6 fw-bold nav-link-a" href="#contact">CONTACT</a>
       </nav>
     </div>
+
+    <nav class="navbar menu-mobile">
+      <div class="container-fluid">
+        
+        <!-- Botão de menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        
+          <!-- Dentro do menu mobile -->
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <!-- Botão X de fechamento do menu -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        
+          <!-- Links dentro do menu mobile -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#portifolio">PORTIFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        
+        </div>
+      
+      </div>
+    
+    </nav>
+
   </header>
 
   <!-- Hero -->
@@ -61,7 +101,8 @@
     </div>
 
     <!-- Cards Bootstrap -->
-    <div class="card-container row row-cols-auto row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-4 justify-content-center align-items-center mb-4 mx-3">
+    <div
+      class="card-container row row-cols-auto row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-4 justify-content-center align-items-center mb-4 mx-3">
 
 
       <!-- Cards da parte de cima -->
@@ -131,7 +172,8 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">TASTY CAKE</h1>
+            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">TASTY
+              CAKE</h1>
 
             <div class="divider d-flex align-items-center justify-content-center py-3 gap-3">
               <div class="divider-line-two"></div>
@@ -178,7 +220,8 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">CIRCUS TENT</h1>
+            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">CIRCUS
+              TENT</h1>
 
             <div class="divider d-flex align-items-center justify-content-center py-3 gap-3">
               <div class="divider-line-two"></div>
@@ -209,7 +252,7 @@
 
 
       <!-- Cards da parte de baixo -->
-       <!-- Card Control -->
+      <!-- Card Control -->
       <div class="col my-4" style="width: 24rem">
         <button type="button" class="border-0 rounded-3" data-bs-toggle="modal" data-bs-target="#controlModal">
           <div class="card rounded-3">
@@ -228,7 +271,8 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">CONTROLLER</h1>
+            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">
+              CONTROLLER</h1>
 
             <div class="divider d-flex align-items-center justify-content-center py-3 gap-3">
               <div class="divider-line-two"></div>
@@ -275,7 +319,8 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">LOCKED SAFE</h1>
+            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">LOCKED
+              SAFE</h1>
 
             <div class="divider d-flex align-items-center justify-content-center py-3 gap-3">
               <div class="divider-line-two"></div>
@@ -317,36 +362,37 @@
       <div class="modal fade" id="submarineModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
           <div class="modal-content">
-  
+
             <div class="d-flex justify-content-end pt-3 pe-3">
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-  
-            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">SUBMARINE</h1>
-  
+
+            <h1 class="modal-title d-flex justify-content-center align-items-center fs-1" id="exampleModalLabel">
+              SUBMARINE</h1>
+
             <div class="divider d-flex align-items-center justify-content-center py-3 gap-3">
               <div class="divider-line-two"></div>
-  
+
               <img width="3%" src="src/assets/images/icons/icon star2.svg" alt="star icon" />
-  
+
               <div class="divider-line-two"></div>
             </div>
-  
+
             <div class="modal-body d-flex justify-content-center align-items-center">
               <div class="rounded-3">
                 <img src="./src/assets/images/img/submarine.png" class="rounded-3" alt="Imagem de um submarino"
                   style="width: 44.4rem" />
               </div>
             </div>
-  
+
             <div class="d-flex flex-column justify-content-center align-items-center pt-4 pb-5 gap-2">
               <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda
                 ipsam nihil,<br>molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
                 Reprehenderit<br>soluta, eos quod consequuntur itaque. Nam.</p>
-  
+
               <button type="button" class="btn btn-modal1 px-3 py-2" data-bs-dismiss="modal">X Close Window</button>
             </div>
-  
+
           </div>
         </div>
       </div>

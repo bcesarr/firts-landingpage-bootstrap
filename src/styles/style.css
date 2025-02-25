@@ -42,6 +42,10 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 
 /* Divisórias do icone da estrela */
 .divider-line {
