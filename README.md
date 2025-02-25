@@ -1,7 +1,7 @@
 <h1 align="center"> Landingpage Bootstrap </h1>
 
 <p align="center">
-Projeto de Landingpage do curso Bootstrap Senai.
+Projeto de Landingpage - Curso Bootstrap Senai.
 </p>
 
 <p align="center">
@@ -21,14 +21,14 @@ Projeto de Landingpage do curso Bootstrap Senai.
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- Javascript
 - Bootstrap
 - Git e Github
-- Figma
 
 ## 💻 Projeto
 
-O projeto é uma landingpage onde foi utilizado os atributos do Bootstrap.
+O projeto é uma landingpage onde foram utilizados os atributos do Bootstrap, bem como um pouco de javascript.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://startbootstrap.com/previews/freelancer). O projeto foi apenas espelhado, o intuito não era que fosse identico ao original.
