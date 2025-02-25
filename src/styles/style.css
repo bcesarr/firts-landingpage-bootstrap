@@ -103,6 +103,17 @@ nav a:hover {
     z-index: 100;
 }
   
+.btn-modal1 {
+    color: white;
+    background-color: rgba(73, 216, 245, 0.731);
+    border: 0;
+}
+
+.btn-modal1:hover {
+    color: white;
+    background-color: rgba(23, 172, 202, 0.731);
+    border: 0;
+}
 
 /* Sessão About */
 .free-download {
